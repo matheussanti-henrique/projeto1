@@ -18,8 +18,12 @@ header nav ul li a{
 	color: #333;
 }
 header nav ul li a:hover{
-	color: #95b963;
+	color: green;
 }
 header img{
 	height: 100%;
+}
+section#banner{
+ height: 350px;
+ background: green;
 }
