@@ -27,3 +27,17 @@ section#banner{
  height: 350px;
  background: green;
 }
+selection#notícias img{
+text-aling: center;
+ height: 100px;
+ width: 100%;
+ box-shadow: 5px 0px 0px 0px #00000030;
+}
+sections#notícias.categoria{
+ text-aling: center;
+}
+section#notícias h2{
+ front-size: 35px;
+ color: #333333;
+ text-aling: center;
+}
