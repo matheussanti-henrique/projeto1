@@ -4,7 +4,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	border: 1px solid black;
+	border: 1px solid green;
 }
 header nav ul{
 	display: flex;
@@ -15,51 +15,58 @@ header nav ul li{
 }
 header nav ul li a{
 	text-decoration: none;
-	color: #333;
+	color: black;
 }
 header nav ul li a:hover{
-	color: yellow;
+	color: green;
 }
 header img{
 	height: 100%;
 }
 section#banner{
 	height: 350px;
-	background: blue;
+	background: green;
 }
 section#noticias{
 	width: 1100px;
 	height: auto;
 	margin: 0 auto;
-	border: 1px solid black;
+	
 }
 section#noticias ul li{
 	list-style:none;
 	width: 350px;
 	height: 350px;
-	background: gray;
+	background: green;
 }
 section#noticias img{
 	text-align: center;
-	height: 100px;
+	height: 150px;
 	width: 100%;
-	box-shadow: 5px 0px 0px 0px #00000030;
+	
 }
 section#noticias .categoria{
 	text-align: center;
-        background: #900;
-        color: #fff;
-        pading: 10px 0;
+        background: BLACK;
+        color: lightgreen;
+        padding: 10px 0;
 }
 section#noticias h2{
 	font-size: 35px;
 	color: #333333;
 	text-align: center;
 }
-section#notícias h3{
+section#noticias h3{
  text-align: center;
  font-size: 35px;
  font-family: Arial;
  margin: 35px 0;
  text-transform: uppercase;
+}
+section#noticias ul li a{
+ text-align: center;
+ font-size: 19px;
+ color: lightgreen;
+ background: black; 
+
 }
