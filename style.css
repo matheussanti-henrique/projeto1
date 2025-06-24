@@ -1,3 +1,9 @@
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
 *{margin: 0; padding:0}
 header{
 	height: 150px;
@@ -7,13 +13,14 @@ header{
 	border: 1px solid green;
 }
 header nav ul{
-	display: flex;
+
 }
 header nav ul li{
 	list-style:none;
 	margin: 10px;
     flex: center;
-    
+    	display: flex;
+ flex-wrap: wrap;
 }
 header nav ul li a{
 	text-decoration: none;
