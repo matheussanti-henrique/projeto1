@@ -34,7 +34,10 @@ header img{
 }
 section#banner{
 	height: 350px;
-	background: green;
+	background: url("https://www.maxgaming.se/dokument/bibliotek/Image/MaxGaming/Brands/razer/brandpage/razer-brandpage-maxgaming2.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 100%;
 }
 section#noticias{
 	width: 1100px;
@@ -42,11 +45,20 @@ section#noticias{
 	margin: 0 auto;
 	
 }
+
+section#noticias ul {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+
+
 section#noticias ul li{
 	list-style:none;
 	width: 350px;
 	height: 350px;
 	background: green;
+	margin: 5px;
 }
 section#noticias img{
 	text-align: center;
@@ -94,3 +106,13 @@ section#noticias ul li p{
  margin: 15px 0;
 }
 
+ section#projetos ul{
+  display:flex;
+  width: 1100px;
+  margin: 0 auto;
+
+}
+
+ section#projetos ul li{
+ overflow: hidden;
+}
